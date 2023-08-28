@@ -1,4 +1,5 @@
-# Dose Estoica 
+# Dose Estoica
+
 Um gerador de frases estoicas. Inspirado nos principais pensadores estoicos que é uma vertente filosofica que gosto.
 ![Exemplo](./assets/hitpaw-1693246337254.gif)
 
@@ -15,7 +16,7 @@ npm install -g json-server
 
 Clonar projeto
 
-  git clone https://github.com/fanylouise/dose-estoica-vanilla.git
+  git clone [repositorio](https://github.com/fanylouise/dose-estoica.git)
 Entre no diretório do projeto
 
   cd dose-estoica-vanilla
