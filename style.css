@@ -1,0 +1,96 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: rgb(85, 214, 46);
+  font-weight: 600;
+}
+.phrase{
+  font-size: 25px;
+}
+@keyframes spinner {
+  from{
+    transform: rotate(0deg);
+
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.spin:hover{
+   cursor: pointer;
+  animation: spinner 1.5s infinite;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.quoteCard {
+  background-color: beige;
+  border-left: 3px solid;
+  max-width: 400px;
+  min-height: 80px;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.displayNone{
+  display: none;
+}
+.autorCard{
+  font-size: 22px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction: row;
+  border-radius: 2px;
+  padding:5px;
+  height: 20px;
+}
+.autor{
+  font-weight: 600px;
+}
+.arrowRight{
+  display: none;
+}
+.autorCard:hover{
+ 
+  transition: 1s ease-in-out;
+  .arrowRight{
+    display: block;
+  }
+  cursor: pointer;
+}
+.allPhrases{
+  margin: 15px auto;
+  max-width: 400px;
+  padding: 5px;
+  border-radius: 3px;
+  overflow-y: scroll;
+  
+}
+
+.allPhrases::-webkit-scrollbar{
+  scrollbar-color: orangered;
+}
+footer{
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  color:rgb(0, 0, 0) ;
+  font-size: 25px;
+}
